@@ -15,7 +15,6 @@ const click = document.addEventListener('click', (e) => {
         let equals = display.value
         try {
             equals = eval(equals)
-            console.log(equals)
             if (!equals) {
                 alert("Invalid math");
                 return;
